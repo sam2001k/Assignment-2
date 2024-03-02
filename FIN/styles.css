@@ -1,0 +1,413 @@
+body {
+    height: 2800px;
+    font-family: Monserrat, sans-serif
+}
+
+.content-left {
+    height: 100vh;
+    width: 45%;
+    background-color: #5c00a1;
+    position: fixed;
+    left: 0;
+    animation: bg 1s ease-in
+}
+
+.content-right {
+    height: 100vh;
+    width: 55%;
+    position: fixed;
+    right: 0;
+    z-index: 1
+}
+
+.svg {
+    height: 350px;
+    width: 350px;
+    position: fixed;
+    top: 60px;
+    left: 30%;
+    background-color: #5c00a1;
+    border-radius: 50%;
+    z-index: 10
+}
+
+#Transparent_Ring {
+    stroke-dasharray: 816px;
+    stroke-dashoffset: 816px
+}
+
+@keyframes anim {
+    to {
+        stroke-dashoffset: 0
+    }
+}
+
+@keyframes dot1 {
+    to {
+        stroke-dashoffset: 680px
+    }
+}
+
+@keyframes dot2 {
+    from {
+        stroke-dashoffset: 680px
+    }
+
+    to {
+        stroke-dashoffset: 544px
+    }
+}
+
+@keyframes dot3 {
+    from {
+        stroke-dashoffset: 544px
+    }
+
+    to {
+        stroke-dashoffset: 408px
+    }
+}
+
+@keyframes dot4 {
+    from {
+        stroke-dashoffset: 408px
+    }
+
+    to {
+        stroke-dashoffset: 272px
+    }
+}
+
+@keyframes dot5 {
+    from {
+        stroke-dashoffset: 272px
+    }
+
+    to {
+        stroke-dashoffset: 136px
+    }
+}
+
+@keyframes dot6 {
+    from {
+        stroke-dashoffset: 136px
+    }
+
+    to {
+        stroke-dashoffset: 0
+    }
+}
+
+.dots-nav {
+    z-index: 2000;
+    cursor: pointer
+}
+
+#Dots {
+    transform: translate(-119px, 47px)
+}
+
+#Dots1 {
+    transform: translate(0, 0)
+}
+
+#Dots2 {
+    transform: translate(121px, 49px)
+}
+
+#Dots3 {
+    transform: translate(173px, 171px)
+}
+
+#Dots4 {
+    transform: translate(122px, 295px)
+}
+
+#Dots5 {
+    transform: translate(0, 344px)
+}
+
+#Dots6 {
+    transform: translate(-122px, 294px)
+}
+
+.top-box {
+    z-index: 2000;
+    position: fixed;
+    right: 55%;
+    top: 180px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    font-family: 'IBM Plex Sans', sans-serif
+}
+
+.top-box p:nth-child(1) {
+    position: relative;
+    text-align: left;
+    margin: 0
+}
+
+.top-box p:nth-child(2) {
+    position: relative;
+    text-align: left;
+    font-weight: 900;
+    font-size: 50px;
+    margin: 0
+}
+
+.top-box p:nth-child(3) {
+    position: relative;
+    text-align: right;
+    margin: 0
+}
+
+.middle-box {
+    z-index: 2000;
+    position: fixed;
+    left: 4%;
+    bottom: 80px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    font-family: 'IBM Plex Sans', sans-serif
+}
+
+.middle-box img {
+    width: 75%
+}
+
+.middle-box p:nth-child(2) {
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'IBM Plex Sans', sans-serif
+}
+
+.middle-box p:nth-child(3) {
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif
+}
+
+.bottom-box {
+    z-index: 2000;
+    position: fixed;
+    left: 4%;
+    bottom: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    justify-content: space-between
+}
+
+.bottom-box :nth-child(2) {
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 15px
+}
+
+.images {
+    display: flex
+}
+
+.one {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: absolute
+}
+
+.one img {
+    width: 350px
+}
+
+.first {
+    visibility: visible
+}
+
+.second {
+    visibility: hidden
+}
+
+.third {
+    visibility: hidden
+}
+
+.four {
+    visibility: hidden
+}
+
+.four img {
+    width: 30%
+}
+
+.five {
+    visibility: hidden
+}
+
+.five img {
+    width: 27%
+}
+
+.six {
+    visibility: hidden
+}
+
+.seven {
+    visibility: hidden
+}
+
+.mob {
+    display: none
+}
+
+@keyframes up {
+    from {
+        transform: translateY(-50px);
+        opacity: .4
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1
+    }
+}
+
+@keyframes down {
+    from {
+        transform: translateY(60px);
+        opacity: .4
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1
+    }
+}
+
+@media screen and (max-width :1024px) {
+    .content-left {
+        display: none
+    }
+
+    .mob {
+        display: block;
+        height: 100%
+    }
+
+    .mobile-carousel {
+        height: 100%
+    }
+
+    body {
+        height: 100vh;
+        font-family: 'IBM Plex Sans', sans-serif
+    }
+
+    .top-mobile {
+        height: 50%
+    }
+
+    .top-mob-1 {
+        background-color: #ccccce
+    }
+
+    .top-mob-2 {
+        background-color: #19005e
+    }
+
+    .top-mob-3 {
+        background-color: #151345
+    }
+
+    .top-mob-4 {
+        background-color: #0d141c
+    }
+
+    .top-mob-5 {
+        background-color: #3addda
+    }
+
+    .top-mob-6 {
+        background-color: #fff
+    }
+
+    .top-mob-7 {
+        background-color: #10ce6a
+    }
+
+    .bottom-mob-1 {
+        background-color: #5c00a1
+    }
+
+    .bottom-mob-2 {
+        background: #b613ac;
+        background: linear-gradient(121deg, #b613ac 0, #290a56 100%)
+    }
+
+    .bottom-mob-3 {
+        background-color: #100f39
+    }
+
+    .bottom-mob-4 {
+        background-color: #17263b
+    }
+
+    .bottom-mob-5 {
+        background-color: #184d9d
+    }
+    /*Samrudh*/
+    .bottom-mob-6 {
+        background-color: #06298d
+    }
+
+    .bottom-mob-7 {
+        background-color: #0b944e
+    }
+
+    .bottom-mobile {
+        height: 50%;
+        color: #fff;
+        font-family: 'IBM Plex Sans', sans-serif;
+        padding-left: 20px;
+        position: relative;
+        z-index: 2000;
+        display: flex;
+        padding-right: 20px
+    }
+
+    .mobile-large-font {
+        font-size: 30px;
+        margin: 0;
+        font-weight: 900
+    }
+
+    .carousel .carousel-indicators button {
+        width: 12px;
+        height: 12px;
+        border-radius: 100%;
+        z-index: 7000
+    }
+
+    .bottom-mob-txt {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-self: center
+    }
+
+    .mob-button {
+        outline: 0;
+        border: none;
+        border-radius: 20px;
+        padding: 11px 11px;
+        margin-left: 19px;
+        color: #fff
+    }
+}

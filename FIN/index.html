@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+        integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Banao</title>
+</head>
+
+<body>
+    <div class="mob">
+        <div id="carouselExampleIndicators" class="carousel slide h-100" data-bs-ride="carousel">
+            <div class="carousel-indicators" style="z-index: 10000;">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"></button>
+            </div>
+
+            <div class="carousel-inner h-100">
+
+                <div class="carousel-item active mobile-carousel h-100">
+                    <div class="top-mobile h-50 top-mob-1">
+                        <div class="mobile-first h-100">
+                            <div class="d-flex h-100 justify-content-center" style="position: relative;top: 50px;">
+                                <img class=" h-100" src="assets/pages/1/1.png" alt="">
+                                <img class=" h-100" src="assets/pages/1/2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-mobile bottom-mob-1">
+                        <img src="assets/pages/1/3.png" alt=""
+                            style="height: 23%;top: -35px;position: absolute;background: white;border: 3px solid #5c00a1;border-radius: 20px;">
+                        <div class="bottom-mob-txt ">
+                            <p class="mobile-large-font">ABC 1</p>
+                            <p>This is sample text for ABC 123 This is sample text for ABC 123</p>
+                            <div class="d-flex">
+                                <p class="mr-1">View Case Study <i class="uil uil-arrow-right pl-2"></i></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="carousel-item mobile-carousel  h-100">
+                    <div class="top-mobile h-50 top-mob-2">
+                        <div class="mobile-first h-100">
+                            <div class="d-flex h-100 justify-content-around" style="padding: 3rem;">
+                                <img class=" h-100" src="assets/pages/2/1.png" alt=""
+                                    style="position: relative;bottom: 45px;">
+                                <img class=" h-100" src="assets/pages/2/2.png" alt=""
+                                    style="position: relative;top: 45px;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-mobile bottom-mob-2">
+                        <div class="bottom-mob-txt ">
+                            <p class="mobile-large-font">ABC 1</p>
+                            <p>This is sample text for ABC 1</p>
+                            <div class="d-flex w-100">
+                                <p class="" style="margin: 0;align-self: center;">CASE STUDY - </p>
+                                <button class="mob-button" style="background-color: #c90d88;">Coming Soon</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item mobile-carousel h-100">
+                    <div class="top-mobile h-50 top-mob-3">
+                        <div class="mobile-first h-100">
+                            <div class="d-flex h-100 justify-content-center" style="padding: 1rem;">
+                                <img class=" h-100" src="assets/pages/3/2.png" style="position: relative;top: 125px;"
+                                    alt="">
+                                <img class=" h-100" src="assets/pages/3/1.png" style="position: relative;bottom: 135px;"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-mobile bottom-mob-3">
+                        <div class="bottom-mob-txt">
+                            <p class="mobile-large-font">ABC 2</p>
+                            <p>This is sample text for ABC 2</p>
+                            <div class="d-flex">
+                                <p class="mr-auto">Case Study</p>
+                                <button class="mob-button" style="background-color: white; color: #100f39;">Coming
+                                    Soon</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item mobile-carousel h-100">
+                    <div class="top-mobile h-50 top-mob-4">
+                        <div class="mobile-first h-100">
+                            <div class="d-flex h-100">
+                                <img src="assets/pages/4/1.png" alt=""
+                                    style="position: absolute;top: -35px;width: 197px;left: -19px;">
+                                <img src="assets/pages/4/2.png" alt=""
+                                    style="position: absolute;width: 160px;top: -66px;left: 110px;">
+                                <img src="assets/pages/4/3.png" alt=""
+                                    style="position: absolute;width: 160px;top: 233px;left: 110px;">
+                                <img src="assets/pages/4/4.png" alt=""
+                                    style="position: absolute;width: 100px;top: 0;right: 0;">
+                                <img src="assets/pages/4/5.png" alt=""
+                                    style="position: absolute;width: 100px;bottom: 375px;right: 0;">
+                                <img src="assets/pages/4/6.png" alt=""
+                                    style="position: absolute;width: 100px;top: 156px;right: 0;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-mobile bottom-mob-4">
+                        <div class="bottom-mob-txt ">
+                            <p class="mobile-large-font">ABC 3</p>
+                            <p>This is sample text for ABC 3 </p>
+                            <div class="d-flex">
+                                <p class="mr-auto">View Case Study <i class="uil uil-arrow-right"></i></p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="carousel-item   mobile-carousel h-100">
+                    <div class="top-mobile h-50 top-mob-5">
+                        <div class="mobile-first h-100">
+                            <div class="d-flex h-100 justify-content-center">
+                                <img src="assets/pages/5/1.png" alt=""
+                                    style="position: absolute;width: 125px;top: 152px;right: 0;">
+                                <img src="assets/pages/5/2.png" alt=""
+                                    style="position: absolute;width: 125px;left: 0;top: 145px;">
+                                <img src="assets/pages/5/3.png" alt=""
+                                    style="position: absolute;width: 125px;left: 0;top: -78px;">
+                                <img src="assets/pages/5/4.png" alt=""
+                                    style="position: absolute;width: 125px;top: 232px">
+                                <img src="assets/pages/5/5.png" alt="" style="position: absolute;width: 125px;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-mobile bottom-mob-5">
+                        <div class="bottom-mob-txt ">
+                            <p class="mobile-large-font">ABC 5</p>
+                            <p>This is sample text for ABC 5 </p>
+                            <div class="d-flex">
+                                <p class="mr-auto">View Case Study <i class="uil uil-arrow-right"></i></p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item   mobile-carousel h-100">
+                    <div class="top-mobile h-50 top-mob-6">
+                        <div class="mobile-first h-100">
+                            <div class="d-flex h-100 justify-content-center">
+                                <img class=" h-100" src="assets/pages/6/1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-mobile bottom-mob-6">
+                        <div class="bottom-mob-txt ">
+                            <p class="mobile-large-font">ABC 4</p>
+                            <p>This is sample text for ABC 4</p>
+                            <div class="d-flex">
+                                <p class="mr-auto">View Case Study <i class="uil uil-arrow-right"></i></p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item  mobile-carousel h-100">
+                    <div class="top-mobile h-50 top-mob-7">
+                        <div class="mobile-first h-100">
+                            <div class="d-flex h-100 justify-content-center">
+                                <img src="assets/pages/7/1.png" alt=""
+                                    style="width: 173px;position: absolute;top: 69px;right: 0;">
+                                <img src="assets/pages/7/2.png" alt=""
+                                    style="width: 309px;position: absolute;top: 29px;left: 0;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-mobile bottom-mob-7">
+                        <img src="assets/pages/7/3.png" alt=""
+                            style="height: 23%;top: -35px;position: absolute;background: white;border: 3px solid #0b944e;border-radius: 30px;">
+                        <div class="bottom-mob-txt ">
+                            <p class="mobile-large-font">XYX 123</p>
+                            <p>This is sample text for XYZ 123</p>
+                            <div class="d-flex">
+                                <p class="mr-auto">Case Study - </p>
+                                <button class="mob-button" style="color: #0b944e; background-color: white;">Coming
+                                    Soon</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="content-left" class="content-left">
+
+
+        <div id="topBox" class="top-box d-flex first">
+            <p></p>
+            <p class="up">25M+ Downloads</p>
+            <p class="down">on appstore and google playstore</p>
+        </div>
+
+        <div id="topBox" class="top-box d-flex second">
+            <p class="upTwo">The Next Big</p>
+            <p class="downTwo">Blockchain</p>
+            <p class="upTwo">Revolution</p>
+        </div>
+
+        <div id="topBox" class="top-box d-flex third">
+            <p class="upThree">Powered by advance</p>
+            <img class="downThree" src="assets/pages/3/nasa.png"></img>
+            <p class="upThree">algorithms</p>
+        </div>
+
+        <div id="topBox" class="top-box d-flex four">
+            <p class="upFour">Refining </p>
+            <p class="downFour">UI/UX Strategy</p>
+            <p class="upFour">and UI design</p>
+        </div>
+
+        <div id="topBox" class="top-box d-flex five">
+            <p class="upFive">Text Headline </p>
+            <p class="downFive">Text Headline</p>
+            <p class="upFive">Footer Headline</p>
+        </div>
+
+        <div id="topBox" class="top-box d-flex six">
+            <p class="upSix">Developing ERP Solution for</p>
+            <p class="downSix">Text Headline</p>
+            <p class="upSix">in future industry</p>
+        </div>
+        <div id="topBox" class="top-box d-flex seven">
+            <p class="upSeven">Biggest Classifeds</p>
+            <p class="downSeven">East Asia</p>
+            <p class="upSeven">Countries</p>
+        </div>
+
+
+        <div id="svg" class="svg">
+
+
+
+            <svg version="1.1" id="transring" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 414 414"
+                style="enable-background:new 0 0 414 414;" xml:space="preserve">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                    y="0px" viewBox="0 0 414 414"
+                    style="enable-background:new 0 0 414 414;position: fixed;width: 350px;height: 350px;top: 60px;left:30%;z-index: 1;"
+                    xml:space="preserve">
+                    <path id="inner-ring" class="transrg"
+                        style="opacity: 0.1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10; stroke-dasharray: 0;"
+                        d="M84.2,85c31.3-31.5,74.7-51,122.7-51c95.5,0,173,77.5,173,173s-77.5,173-173,173
+                            c-47.8,0-91-19.4-122.3-50.7"></path>
+                </svg>
+
+                <path id="Transparent_Ring" class="transrg"
+                    style="opacity: 4; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10; stroke-dasharray: 815.814, 815.814; stroke-dashoffset: 815.814;"
+                    d="M84.2,85c31.3-31.5,74.7-51,122.7-51c95.5,0,173,77.5,173,173s-77.5,173-173,173
+                        c-47.8,0-91-19.4-122.3-50.7"></path>
+                <path id="Opaque_Ring" class="transrgwht" stroke-dasharray="0,1000"
+                    style=" fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10; stroke-dasharray: 10, 1000;"
+                    d="M84.2,85c31.3-31.5,74.7-51,122.7-51c95.5,0,173,77.5,173,173s-77.5,173-173,173
+                        c-47.8,0-91-19.4-122.3-50.7"></path>
+                <g id="Dots" class="dots-nav" onclick="scrollToThis(0)">
+                    <g>
+                        <path class="dotsst dotsfill" style="fill: rgb(0, 146, 255); opacity: 1;"
+                            d="M206.8,29c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6-6S210.1,29,206.8,29z M206.8"></path>
+                    </g>
+                    <g>
+                        <path class="dotsstro"
+                            style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                            d="M206.8,29c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6-6S210.1,29,206.8,29z M206.8"></path>
+                    </g>
+                </g>
+                <g id="Dots1" class="dots-nav" onclick="scrollToThis(1)">
+                    <g>
+                        <path id="Dots1Fill" class="dotsst dotsfill1" style="fill: rgb(255, 255, 255); opacity: 0.4;"
+                            d="M206.8,29c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6-6S210.1,29,206.8,29z M206.8"></path>
+                    </g>
+                    <g>
+                        <path id="Dots1Tro" class="dotsstro1"
+                            style="opacity: 0; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                            d="M206.8,29c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6-6S210.1,29,206.8,29z M206.8"></path>
+                    </g>
+                </g>
+                <g id="Dots2" class="dots-nav" onclick="scrollToThis(2)">
+                    <g>
+                        <path id="Dots2Fill" class="dotsst dotsfill2" style="fill: rgb(255, 255, 255); opacity: 0.4;"
+                            d="M206.8,29c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6-6S210.1,29,206.8,29z M206.8"></path>
+                    </g>
+                    <g>
+                        <path id="Dots2Tro" class="dotsstro2"
+                            style="opacity: 0; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                            d="M206.8,29c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6-6S210.1,29,206.8,29z M206.8"></path>
+                    </g>
+                </g>
+                <g id="Dots3" class="dots-nav" onclick="scrollToThis(3)">
+                    <g>
+                        <path id="Dots3Fill" class="dotsst dotsfill3" style="fill: rgb(255, 255, 255); opacity: 0.4;"
+                            d="M206.8,29c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6-6S210.1,29,206.8,29z M206.8"></path>
+                    </g>
+                    <g>
+                        <path id="Dots3Tro" class="dotsstro3"
+                            style="opacity: 0; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                            d="M206.8,29c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6-6S210.1,29,206.8,29z M206.8"></path>
+                    </g>
+                </g>
+                <g id="Dots4" class="dots-nav" onclick="scrollToThis(4)">
+                    <g>
+                        <path id="Dots4Fill" class="dotsst dotsfill4" style="fill: rgb(255, 255, 255); opacity: 0.4;"
+                            d="M206.8,29c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6-6S210.1,29,206.8,29z M206.8"></path>
+                    </g>
+                    <g>
+                        <path id="Dots4Tro" class="dotsstro4"
+                            style="opacity: 0; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                            d="M206.8,29c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6-6S210.1,29,206.8,29z M206.8"></path>
+                    </g>
+                </g>
+                <g id="Dots5" class="dots-nav" onclick="scrollToThis(5)">
+                    <g>
+                        <path id="Dots5Fill" class="dotsst dotsfill5" style="fill: rgb(255, 255, 255); opacity: 0.4;"
+                            d="M206.8,29c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6-6S210.1,29,206.8,29z M206.8"></path>
+                    </g>
+                    <g>
+                        <path id="Dots5Tro" class="dotsstro5"
+                            style="opacity: 0; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                            d="M206.8,29c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6-6S210.1,29,206.8,29z M206.8"></path>
+                    </g>
+                </g>
+                <g id="Dots6" class="dots-nav" onclick="scrollToThis(6)">
+                    <g>
+                        <path id="Dots6Fill" class="dotsst dotsfill6" style="fill: rgb(255, 255, 255); opacity: 0.4;"
+                            d="M206.8,29c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6-6S210.1,29,206.8,29z M206.8"></path>
+                    </g>
+                    <g>
+                        <path id="Dots6Tro" class="dotsstro6"
+                            style="opacity: 0; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                            d="M206.8,29c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6-6S210.1,29,206.8,29z M206.8"></path>
+                    </g>
+                </g>
+            </svg>
+        </div>
+
+        <div class="middle-box first">
+            <img class="up" src="assets/pages/1//3.png" alt="">
+            <p class="mt-2 down">ABC 001</p>
+            <p class="up">We are the best web development <br> company in the world</p>
+        </div>
+
+        <div class="middle-box second">
+            <img src="" alt="">
+            <p class="mt-2 downTwo">ABC 002</p>
+            <p class="upTwo">We are the best web development <br> company in the world</p>
+        </div>
+
+        <div class="middle-box third">
+            <img class="upThree" src="" alt="">
+            <p class="downThree" class="mt-2">ABC 003</p>
+            <p class="upThree">We are the best <br> web development company <br> in the world</p>
+        </div>
+        <div class="middle-box four">
+            <img class="upFour" src="" alt="">
+            <p class="mt-2 downFour">ABC 004</p>
+            <p class="upFour">We are the best <br> web development company <br> in the world</p>
+        </div>
+        <div class="middle-box five">
+            <img class="upFive" src="" alt="">
+            <p class="mt-2 downFive">ABC 005</p>
+            <p class="upFive">We are the best AR <br> development company <br> in the world</p>
+        </div>
+        <div class="middle-box six">
+            <img src="" alt="">
+            <p class="mt-2 downSix">ABC 006</p>
+            <p class="upSix">Best since 2017 <br> We offer wide range of <br> web development and app development</p>
+        </div>
+        <div class="middle-box seven">
+            <p class="upSeven">We are the best <br> web development company <br> in the world</p>
+        </div>
+
+        <div class="bottom-box first">
+            <p class="up">View Case Study <i class="uil uil-arrow-right"></i> </p>
+            <p class="down">SKIP</p>
+        </div>
+
+        <div class="bottom-box second">
+            <p class="upTwo">Coming Soon </p>
+            <p class="upTwo">SKIP</p>
+        </div>
+
+        <div class="bottom-box third">
+            <p class="upThree">Coming Soon </p>
+            <p class="upThree">SKIP</p>
+        </div>
+        <div class="bottom-box four">
+            <p class="upFour">View Case Study <i class="uil uil-arrow-right"></i> </p>
+            <p class="upFour">SKIP</p>
+        </div>
+        <div class="bottom-box five">
+            <p class="upFive">View Case Study <i class="uil uil-arrow-right"></i> </p>
+            <p class="downFive">SKIP</p>
+        </div>
+        <div class="bottom-box six">
+            <p class="upSix">View Case Study <i class="uil uil-arrow-right"></i> </p>
+            <p class="downSix">SKIP</p>
+        </div>
+        <div class="bottom-box seven">
+            <p class="upSeven">Coming Soon </p>
+            <p class="upSeven">SKIP</p>
+        </div>
+
+        <div id="content-right" class="content-right">
+            <div class="images one first">
+                <img class="down" src="assets/pages/1/1.png" alt="">
+                <img class="up" src="assets/pages/1/2.png" alt="">
+            </div>
+            <div class="images one second">
+                <img class="downTwo" src="assets/pages/2/2.png" alt="" style="align-self: flex-end;">
+                <img class="upTwo" src="assets/pages/2/1.png" alt="" style="align-self: baseline;">
+            </div>
+            <div class="images one third">
+                <img class="upThree" src="assets/pages/3/2.png" alt="" style="align-self: flex-end;">
+                <img class="downThree" src="assets/pages/3/1.png" alt=""
+                    style="align-self: flex-start;position: relative;bottom: 280px;left:80px">
+            </div>
+            <div class="images one four">
+                <img class="upFour" src="assets/pages/4/1.png" alt=""
+                    style="position: absolute;top: 0;left: 0;z-index: -1;">
+                <img class="downFour" src="assets/pages/4/2.png" alt=""
+                    style="position: absolute;top: 60px;left: 420px;">
+                <img class="upFour" src="assets/pages/4/3.png" alt="" style="position: absolute;bottom: 0;left: 73px;">
+                <img class="downFour" src="assets/pages/4/4.png" alt=""
+                    style="position: absolute;top: -160px;right: 20px;">
+                <img class="upFour" src="assets/pages/4/5.png" alt="" style="position: absolute;bottom: 0;right: 0;">
+            </div>
+            <div class="images one five">
+                <img class="upFive" src="assets/pages/5/1.png" alt=""
+                    style="position: absolute;right: 50px;z-index: -1;" class="aos-init aos-animate">
+                <img class="upFive" src="assets/pages/5/2.png" alt=""
+                    style="position: absolute;left: 175px;bottom: -142px;" class="aos-init aos-animate">
+                <img class="downFive" src="assets/pages/5/3.png" alt=""
+                    style="position: absolute;top: -112px;left: 73px;" class="aos-init aos-animate">
+                <img class="upFive" src="assets/pages/5/4.png" alt=""
+                    style="position: absolute;bottom: -160px;left: 343px;" class="aos-init aos-animate">
+                <img class="downFive" src="assets/pages/5/5.png" alt=""
+                    style="position: absolute;top: -11px;left: 314px;" class="aos-init aos-animate">
+            </div>
+            <div class="images one six">
+                <img src="assets/pages/6/1.png" alt="" style="width: 100%;">
+            </div>
+            <div class="images one seven">
+                <img class="downSeven" src="assets/pages/7/2.png" alt="" style="position: absolute;bottom: 247x;"
+                    class="aos-init aos-animate">
+                <img class="downSeven" src="assets/pages/7/1.png" alt=""
+                    style="width: 270px;position: absolute;bottom: -38px;right: 122px;z-index: -1;"
+                    class="aos-init aos-animate">
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js">
+    </script>
+    <script src="jquery.drawsvg.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript">
+
+        // Samrudh
+    </script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
